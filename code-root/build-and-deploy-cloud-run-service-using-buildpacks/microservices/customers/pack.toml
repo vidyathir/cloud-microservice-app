@@ -1,0 +1,2 @@
+[[buildpacks]]
+uri = "https://github.com/GoogleCloudPlatform/buildpacks/releases/download/python/python-cnb-0.3.1.tgz"

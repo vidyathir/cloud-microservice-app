@@ -8,7 +8,7 @@ Click on Repositories
 Click on 2nd Gen Tab
 Click on Create Host Connection
     Region:us-central1
-    Name: cloud-monkey-github-connection
+    Name: cloud-run-ms-GitHubub-connection
 Click Connect
 Follow the prompts
 

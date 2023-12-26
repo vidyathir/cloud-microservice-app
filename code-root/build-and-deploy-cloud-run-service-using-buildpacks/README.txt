@@ -15,14 +15,14 @@ Create Build Trigger
 Go to Cloud Build
 Click on Dashboard
 Click on Setup Build Triggers
-Name: lab-06-get-customers-svc-tr
+Name: customers-service-trigger
 Region: us-central1
 Event: Manual Invocation
 Repository Generation: 2nd gen
-Repository: udemy-cloud-monkey-cloud-run-code-repo
+Repository: customers-service-trigger
 Branch: main
 Configuration: Buildpacks
-Build Directory: lab-6-build-and-deploy-cloud-run-service-using-buildpacks/microservices/customers
+Build Directory: build-and-deploy-cloud-run-service-using-buildpacks/microservices/customers
 Image Name: us-central1-docker.pkg.dev/$PROJECT_ID/cloud-monkey-artifact-registry/lab-06-get-customers-svc-img:latest
 Builder Image: gcr.io/buildpacks/builder
 
