@@ -3,7 +3,6 @@
 ###
 
 curl --request GET \
-  --url https://lab-06-get-customers-svc-{{PROJECT_HASH}}-uc.a.run.app/getcustomers \
+  --url https://customers-service-trigger-{{PROJECT_HASH}}-uc.a.run.app/getcustomers \
   --header 'content-type: application/json' \
   --header 'user-agent: vscode-restclient'
-
