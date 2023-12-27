@@ -29,4 +29,4 @@ Go to UI and Invoke the Build Trigger
 -------------------------------------
 Go to Cloud Build
 Click on Triggers
-Look for trigger named lab-09-get-customers-svc-tr and click Run
+Look for trigger named lab-09-get-customers-svc-tr and click to Run
