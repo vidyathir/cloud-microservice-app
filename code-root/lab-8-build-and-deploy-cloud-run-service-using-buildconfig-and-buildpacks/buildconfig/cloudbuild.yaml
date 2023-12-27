@@ -6,7 +6,7 @@ steps:
   args:
     - 'build'
     - '--builder=gcr.io/buildpacks/builder'
-    - '--publish=us-central1-docker.pkg.dev/${PROJECT_ID}/microserviceartifacts/lab-08-get-customers-svc-img'
+    - '--publish=us-central1-docker.pkg.dev/${PROJECT_ID}/microserviceartifacts/lab-08-get-customers-svc'
 
 - id: "Deploy Cloud Run Service"
   name: 'gcr.io/cloud-builders/gcloud:latest'
@@ -18,7 +18,7 @@ steps:
     - '--allow-unauthenticated'
     - '--memory=256Mi'
     - '--platform=managed'
-    - '--image=us-central1-docker.pkg.dev/${PROJECT_ID}/cloud-monkey-artifact-registry/lab-08-get-customers-svc-img'
+    - '--image=us-central1-docker.pkg.dev/${PROJECT_ID}/microserviceartifacts/lab-08-get-customers-svc'
     - '--timeout=30'
     - '--min-instances=0'
     - '--max-instances=1'
