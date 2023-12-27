@@ -2,7 +2,7 @@ steps:
 - id: "Build Image using Pack"
   name: 'gcr.io/k8s-skaffold/pack:latest'
   entrypoint: "pack"
-  dir: 'lab-8-build-and-deploy-cloud-run-service-using-buildconfig-and-buildpacks/microservices/customers'
+  dir: 'code-root/lab-8-build-and-deploy-cloud-run-service-using-buildconfig-and-buildpacks/microservices/customers'
   args: ['build', 
           '--builder', 'gcr.io/buildpacks/builder', 
           '--publish', 'us-central1-docker.pkg.dev/cloud-run-ms-409309/microserviceartifacts/lab-08-get-customers-svc-img']
